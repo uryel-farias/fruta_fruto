@@ -1,3 +1,6 @@
 @import './normalize.css'; 
 @import './reset.css'; 
+@import './cabecalho.css'; 
+@import './sobre.css'; 
+@import './receitas.css'; 
 @import ''; 
