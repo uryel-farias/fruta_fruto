@@ -1,0 +1,32 @@
+.rodape {
+    background-color: #bfbfbf;
+}
+
+.contato {
+    text-align: center;
+    padding-top: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #8d0606;
+}
+
+.rodape__container {
+    color: #fdfdfd;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+
+}
+
+.rodape__container a {
+    color: #fdfdfd;
+}
+
+.rodape a:hover {
+    color: #8d0606;
+}
+
+.linkedin {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
