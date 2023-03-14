@@ -63,3 +63,30 @@
 .pessoa__imagem--andreia {
     background-image: url('../img/pessoas/andreia.jpg');
 }
+
+
+@media screen and (max-width:1366px) {
+    .pessoas {
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .quem-somos {
+        padding: 3rem 1rem;
+    }
+
+    .pessoa__imagem {
+        min-width: 200px;
+        min-height: 200px;
+    }
+
+    .quem-somos__descricao {
+        font-size: 1.4rem;
+    }
+
+    .quem-somos__titulo {
+        font-size: 2.7rem;
+    }
+}
