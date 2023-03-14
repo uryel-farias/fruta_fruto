@@ -33,3 +33,13 @@
     text-decoration: underline;
 }
 
+@media screen and (max-width:768px) {
+    .logo {
+margin: 0 auto;
+    }
+
+    nav {
+        display: none;
+    }
+}
+

@@ -36,3 +36,25 @@
     font-size: 1.75rem;
     font-weight: 100;
 }
+
+@media screen and (max-width:768px) {
+    .banner__titulo {
+        font-size: 3rem;
+    }
+
+    .banner__imagem{
+        max-height: 300px;
+    }
+
+    .sobre {
+        padding: 2rem 1rem;
+    }
+
+    .sobre__titulo {
+        font-size: 3rem;
+    }
+
+    .sobre__descricao {
+        font-size: 1.4rem;
+    }
+}
